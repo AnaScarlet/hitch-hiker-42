@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: unset;
+}
+
+.all {
+    display: flex;
+    background-image: url("./assets/dark-sky-with-stars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.all-mobile {
+    flex-direction: column-reverse;
+}
+
+h1.all-mobile {
+    margin-top: 5%;
+}
+
+.interaction {
+    background-color: #20065F;
+    min-width: 50%;
+    height: auto;
+    transform: scale(0.9, 0.95);
+    flex: 1;
+    color: #E6D3A3;
+    border-right-style: solid;
+    border-right-width: 15px;
+    border-right-color: #E6D3A3;
+}
+
+.main {
+    flex: 2;
+    background-image: url("./assets/gummy-macintosh.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer {
+    background-color: #20065F;
+    color: #E6D3A3;
+    max-width: 100%;
+    font-size: 0.5vw;
+}

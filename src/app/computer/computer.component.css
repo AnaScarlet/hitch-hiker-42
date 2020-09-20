@@ -1,0 +1,17 @@
+#computer-output {
+    color: #E6D3A3;
+    font-size: 2vw;
+    background-color: black;
+    margin-top: 60%;
+    margin-bottom: 30%;
+    margin-left: 40%;
+    padding-left: 2% ;
+    width: 18%;
+    border-style: ridge;
+    border-color: whitesmoke;
+}
+
+.glow {
+    box-shadow: 3px 3px .4em rgba(230, 211, 163, 0.5), -3px -3px .4em rgba(230, 211, 163, 0.5), 3px -3px .4em rgba(230, 211, 163, 0.5), -3px 3px .4em rgba(230, 211, 163, 0.5);
+    transition: width 3s, height 3s;
+}
